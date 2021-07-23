@@ -1,0 +1,146 @@
+
+body{
+    font-family: 'Montserrat-black', sans-serif;
+}
+p{
+    color: grey;
+}
+h1{
+    font-family: 'Montserrat-black', sans-serif;
+font-weight: bold;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+h2{
+    font-family: 'Montserrat-bold', sans-serif;
+    font-weight: bold;
+    color: white;
+    line-height:1.5;
+}
+h3{
+    font-family: 'Montserrat-bold';
+    font-weight: bold;
+}
+/*title section */
+
+
+#title{
+    background-color: #ff4c68;
+    color: white;
+}
+.container-fluid{
+    padding: 3% 15%;
+}
+
+.navbar{
+    padding-bottom: 2.5rem;
+}
+.navbar-brand{
+    font-family: ubuntu;
+    font-size: 2rem;
+}
+.nav-item{
+    padding: 0 18px;
+}
+.nav-link{
+    font-size: 1.5rem;
+}
+.Download-button{
+    margin: 5% 3% 5% 0;
+}
+.titleimg{
+    width: 100%;
+    border-radius: 50%;
+}
+/*Feature sections */
+
+
+#features{
+    padding: 7% 9%;
+}
+.featurebox{
+    text-align: center;
+    padding: 5%;
+}
+.icon{
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+.icon:hover{
+    color:  #ff4c68;
+}
+/*Testimonial section */
+
+
+#testimonials{
+    
+    text-align: center;
+    background-color: #ef8172;
+}
+.testimonial-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 15px;
+}
+#press{
+    background-color: #ef8172;
+    text-align: center;
+}
+.pressimg{
+    width: 20%;
+   border-radius: 20% ;
+    padding-bottom: 3%;
+    margin: 20px;
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+/*Pricing  section */
+
+
+.price{
+    color: black;
+    font-weight: bold;
+}
+.pricetitle{
+    color: black;
+    font-family: 'Montserrat-black', sans-serif;
+    font-weight: bold;
+}
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+.pricing-coloumn{
+    padding: 2% 2%;
+}
+@media (min-width: 500px){
+    #title{
+        text-align: center;
+    }
+}
+#cta{
+    color: white;
+    padding: 7% 15%;
+    background-color:#ff4c68 ;
+    text-align: center;
+}
+.ctaheading{
+font-family: 'Montserrat-black';
+font-size: 3.5rem;
+line-height: 1;
+
+}
+/*Footer section */
+
+
+#footer{
+    color: white;
+    padding: 25px;
+    text-align: center;
+}
+.footimg{
+    margin: 3px;
+    height: 10%;
+    width: 2%;
+}
